@@ -1,0 +1,24 @@
+{
+  "name": "nouda",
+  "version": "1.0.0",
+  "main": "lib/nouda.js",
+  "module": "lib/nouda.esm.js",
+  "author": "li <1977735808@qq.com>",
+  "license": "MIT",
+  "description": "A practical promise request tool",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -w -c"
+  },
+  "keywords": [
+    "fetch",
+    "http",
+    "promise",
+    "ajax"
+  ],
+  "devDependencies": {
+    "rollup": "^2.70.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  }
+}
