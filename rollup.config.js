@@ -14,6 +14,12 @@ export default [
         format: "es",
         file: pkg.module,
         name: 'Nouda',
+      },
+      {
+        format: "cjs",
+        file: pkg.cjs,
+        name: 'Nouda',
+        exports: 'default'
       }
     ],
     plugins: [

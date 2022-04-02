@@ -2,6 +2,7 @@
   "name": "nouda",
   "version": "1.0.0",
   "main": "lib/nouda.js",
+  "cjs": "lib/nouda.cjs.js",
   "module": "lib/nouda.esm.js",
   "author": "li <1977735808@qq.com>",
   "license": "MIT",
